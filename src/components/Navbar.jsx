@@ -67,7 +67,6 @@ const Navbar = () => {
           <CustomLink href="/"  title="Home"  className='mr-4'/>
           <CustomLink href="/about" title="About" className='mx-4'/>
           <CustomLink href="/projects" title="Projects" className='mx-4' />
-          <CustomLink href="/articles"  title="Articles" className='ml-4'/>
         </nav>
         
         <nav className='flex items-center justify-center flex-wrap'>
@@ -112,7 +111,6 @@ className='z-30 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32 mi
           <CustomMobileLink href="/"  title="Home"  className='' toggle={handelClick} />
           <CustomMobileLink href="/about" title="About" className='' toggle={handelClick} />
           <CustomMobileLink href="/projects" title="Projects" className=''  toggle={handelClick} />
-          <CustomMobileLink href="/articles"  title="Articles" className='' toggle={handelClick} />
         </nav>
         
         <nav className='flex items-center justify-center flex-wrap mt-2'>
