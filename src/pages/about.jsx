@@ -49,19 +49,21 @@ const about = () => {
                 <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>bigraghy</h2>
                     <p className='font-medium'>
-                    Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-                    and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
+                    Hi, I'm ziad, a web developer with a passion for creating beautiful, functional, 
+                    and user-centered digital experiences. With 1 years of experience in the field. I am always looking for 
                     new and innovative ways to bring my clients' visions to life.
                     </p>
                     <p className='font-medium my-4'>
-                    I believe that design is about more than just making things look pretty – it's about solving problems and 
-                    creating intuitive, enjoyable experiences for users. 
+                    Experienced Front-End Developer specializing in React&Next.js  frameworks, 
+                    HTML, CSS, and JavaScript tools. Proven track record of delivering high-quality projects and collaborating 
+                    with cross-functional teams. Passionate about creating seamless user experiences and staying up-to-date with 
+                    industry trends. Detail oriented with a focus on intuitive interfaces and accessibility. Ready to collaborate 
+                    and bring your digital vision to life 
                     </p>
-                    <p className='font-medium'>                 
-                    Whether I'm working on a website, mobile app, or 
-                    other digital product, I bring my commitment to design excellence and user-centered thinking to 
+                    {/* <p className='font-medium'>                 
+                    Whether I'm working on a website , I bring my commitment to design excellence and user-centered thinking to 
                     every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
-                    </p>
+                    </p> */}
                 </div>
                 <div className='col-span-3 dark:border-light dark:bg-dark relative h-max rounded-2xl 
                 border-2 border-solid border-dark bg-light p-8 xl:col-span-4 md:order-1 md:col-span-8'>

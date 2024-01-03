@@ -5,7 +5,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import project1 from "../../public/images/projects/ecommers.PNG"
+import project2 from "../../public/images/projects/weather.PNG"
+import project3 from "../../public/images/projects/login.PNG"
+import project4 from "../../public/images/projects/crud.PNG"
+import project5 from "../../public/images/projects/to do app.PNG"
+import project6 from "../../public/images/projects/quiz.PNG"
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -97,73 +102,71 @@ const projects = () => {
         <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'> 
           <div className='col-span-12'>
             <FeaturedProject
-            title="Crypto Screener Application"
+            title="eCommers Project"
             img={project1}
-            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-            local currency."
-            link="/"
-            github="/"
+            summary="Responsive e-commers app Created using React, bootstrap, Stripe, Formik, Yup,react-query, Strapi, 
+            and Context , ... to build this entire application. This application will allow you to add products into a 
+            cart, have a form to fill out information and make payments through Stripe with a backend supported by Strapi, 
+            with real backend product"
+            link="https://zyadessa2.github.io/react-e-commers/"
+            github="https://github.com/zyadessa2/react-e-commers"
             type="featured projects"
             />
           </div>
           <div className='col-span-6 sm:col-span-12'>
           <Project
-            title="Crypto Screener Application"
-            img={project1}
-            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-            local currency."
-            link="/"
-            github="/"
+            title="Weather App"
+            img={project2}
+            summary="weather app "
+            link="https://zyadessa2.github.io/weather-API/"
+            github="https://github.com/zyadessa2/weather-API"
             type="featured projects"
             />
           </div>
           <div className='col-span-6 sm:col-span-12'>
             <Project
-              title="Crypto Screener "
-              img={project1}
-              summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-              link="/"
-              github="/"
+              title="LogIn System "
+              img={project3}
+              summary="LogIn system"
+              link="https://zyadessa2.github.io/Login-System/"
+              github="https://github.com/zyadessa2/Login-System"
               type="featured projects"
               />
           </div>
           <div className='col-span-12'>
             <FeaturedProject
-              title="Crypto Screener Application"
-              img={project1}
-              summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-              link="/"
-              github="/"
+              title="ToDo app With react"
+              img={project5}
+              summary="A feature-rich ToDo App using React, 
+              It shows tasks you write and add task , delete 
+              task or all tasks ,display complete task onle or 
+              display active anly and store it in
+              local storage."
+              link="https://zyadessa2.github.io/ToDo-app-with-reactjs/"
+              github="https://github.com/zyadessa2/ToDo-app-with-reactjs.git"
               type="featured projects"
               />
           </div>
           <div className='col-span-6 sm:col-span-12'>
             <Project
-              title="Crypto Screener Application"
-              img={project1}
-              summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-              link="/"
-              github="/"
+              title="Store Management System "
+              img={project4}
+              summary="Have built CRUDS  System and Learned 
+              how to create (Create, Read, Update, Delete, and Search) 
+              on the CRUDS application with plain JavaScript. We are not 
+              going to use any JavaScript frameworks instead we ."
+              link="https://zyadessa2.github.io/CRUD/"
+              github="https://github.com/zyadessa2/CRUD"
               type="featured projects"
               />
           </div>
           <div className='col-span-6 sm:col-span-12'>
             <Project
-              title="Crypto Screener Application"
-              img={project1}
-              summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-              link="/"
-              github="/"
+              title="Quiz App"
+              img={project6}
+              summary="quiz app."
+              link="https://zyadessa2.github.io/Quiz-app-js/"
+              github="https://github.com/zyadessa2/Quiz-app-js.git"
               type="featured projects"
               />
           </div>

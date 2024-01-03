@@ -49,50 +49,28 @@ const Experience = () => {
             '/>
             <ul className='w-full flex flex-col items-start justify-between ml-4'>
                 <Details
-                position="Software Engineer" company="@Google"
-                companyLink="www.google.com"
-                time="2022-Present"  address="Mountain View, CA"
-                work="Worked on a team responsible for developing new features for Google's 
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization."
+                position="eCommers App" company="@freelancing"
+                companyLink="https://zyadessa2.github.io/react-e-commers/"
+                time="2023-Present"  address="remotly"
+                work="Responsive e-commers app Created using React, bootstrap,
+                Stripe, Formik, Yup,react-query, Strapi, and Context , ... to build 
+                this entire application. This application will allow you to add products into a 
+                cart, have a form to fill out information and make payments through Stripe with a 
+                backend supported by Strapi, with real backend product ."
                 
                 />
                 <Details
-                position="Software Engineer" company="@Google"
-                companyLink="www.google.com"
-                time="2022-Present"  address="Mountain View, CA"
-                work="Worked on a team responsible for developing new features for Google's 
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization."
+                position="Store Management System " company="@freelancing"
+                companyLink="https://zyadessa2.github.io/CRUD/"
+                time="2023-Present"  address="remotly"
+                work="Have built CRUDS  System and Learned how to 
+                create (Create, Read, Update, Delete, and Search) on the 
+                CRUDS application with plain JavaScript. We are not going to 
+                use any JavaScript frameworks instead we use plain JavaScript, 
+                CSS, and HTML to build a CRUD application."
                 
                 />
-                <Details
-                position="Software Engineer" company="@Google"
-                companyLink="www.google.com"
-                time="2022-Present"  address="Mountain View, CA"
-                work="Worked on a team responsible for developing new features for Google's 
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization."
                 
-                />
-                <Details
-                position="Software Engineer" company="@Google"
-                companyLink="www.google.com"
-                time="2022-Present"  address="Mountain View, CA"
-                work="Worked on a team responsible for developing new features for Google's 
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization."
-                
-                />
-                <Details
-                position="Software Engineer" company="@Google"
-                companyLink="www.google.com"
-                time="2022-Present"  address="Mountain View, CA"
-                work="Worked on a team responsible for developing new features for Google's 
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization."
-                
-                />
             </ul>
         </div>
         

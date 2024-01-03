@@ -70,16 +70,16 @@ const Navbar = () => {
         </nav>
         
         <nav className='flex items-center justify-center flex-wrap'>
-          <motion.a href="" target={'_blank'}
+          <motion.a href="https://github.com/zyadessa2" target={'_blank'}
           whileHover={{y:-2}}
           whileTap={{scale:0.9}}
           className='w-6 mr-3'
           ><GithubIcon/></motion.a>
-          <motion.a className='w-6 mx-3' href="/" target={'_blank'}
+          <motion.a className='w-6 mx-3' href="https://www.linkedin.com/in/ziad-essa/" target={'_blank'}
           whileHover={{y:-2}}
           whileTap={{scale:0.9}}
           ><LinkedInIcon/></motion.a>
-          <motion.a className='w-6 ml-3' href="https://twitter.com" target={'_blank'}
+          <motion.a className='w-6 ml-3' href="https://twitter.com/EditingZm" target={'_blank'}
           whileHover={{y:-2}}
           whileTap={{scale:0.9}}
           ><TwitterIcon/></motion.a>
@@ -114,16 +114,16 @@ className='z-30 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32 mi
         </nav>
         
         <nav className='flex items-center justify-center flex-wrap mt-2'>
-          <motion.a href="" target={'_blank'}
+          <motion.a href="https://github.com/zyadessa2" target={'_blank'}
           whileHover={{y:-2}}
           whileTap={{scale:0.9}}
-          className='w-6 mr-3 sm-mx-1'
+          className='w-6 mr-3 sm-mx-1 dark:bg-dark rounded-full bg-light'
           ><GithubIcon/></motion.a>
-          <motion.a className='w-6 mx-3 sm-mx-1' href="/" target={'_blank'}
+          <motion.a className='w-6 mx-3 sm-mx-1' href="https://www.linkedin.com/in/ziad-essa/" target={'_blank'}
           whileHover={{y:-2}}
           whileTap={{scale:0.9}}
           ><LinkedInIcon/></motion.a>
-          <motion.a className='w-6 ml-3 sm-mx-1' href="https://twitter.com" target={'_blank'}
+          <motion.a className='w-6 ml-3 sm-mx-1' href="https://twitter.com/EditingZm" target={'_blank'}
           whileHover={{y:-2}}
           whileTap={{scale:0.9}}
           ><TwitterIcon/></motion.a>

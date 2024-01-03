@@ -47,20 +47,21 @@ const Education = () => {
             className='dark:bg-light absolute left-9 top-0 w-[4px] h-full bg-dark origin-top md:w-[2px] md:left-[30px] xs:left-[20px]'/>
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                 <Details
-                type="Bachelor Of Science In Computer Science" 
-                time="2016-2020"
-                place="Massachusetts Institute Of Technology (MIT)"
+                type="Bachelor Of Computer Science" 
+                time="2022-2025"
+                place="Higher Technology Institute (HIT)"
                 info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
                 Intelligence."  
                 
                 />
                 
                 <Details
-                type="Bachelor Of Science In Computer Science" 
-                time="2016-2020"
-                place="Massachusetts Institute Of Technology (MIT)"
-                info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                Intelligence."  
+                type="Frontend course" 
+                time="2023/may-oct"
+                place="Route Academy"
+                info="The course covers front-end tools: JavaScript, AJAX, JSON, React.Js and Next.js , Development  of a new  highly-responsive, web-based user interface. 
+                Develop  a  flexible and well-structured  project architecture and  the  APIs  to support  it. 
+                Translate designs, wireframes, and business requirements into solutions using high-quality code."  
                 
                 />
                 
