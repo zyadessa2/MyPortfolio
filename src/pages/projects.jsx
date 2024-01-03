@@ -6,7 +6,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import project1 from "../../public/images/projects/ecommers.PNG"
-import project2 from "../../public/images/projects/weather.PNG"
 import project3 from "../../public/images/projects/login.PNG"
 import project4 from "../../public/images/projects/crud.PNG"
 import project5 from "../../public/images/projects/to do app.PNG"
@@ -116,7 +115,7 @@ const projects = () => {
           <div className='col-span-6 sm:col-span-12'>
           <Project
             title="Weather App"
-            img={project2}
+            img={project3}
             summary="weather app "
             link="https://zyadessa2.github.io/weather-API/"
             github="https://github.com/zyadessa2/weather-API"
