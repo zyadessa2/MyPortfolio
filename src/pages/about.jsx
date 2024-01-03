@@ -60,16 +60,13 @@ const about = () => {
                     industry trends. Detail oriented with a focus on intuitive interfaces and accessibility. Ready to collaborate 
                     and bring your digital vision to life 
                     </p>
-                    {/* <p className='font-medium'>                 
-                    Whether I'm working on a website , I bring my commitment to design excellence and user-centered thinking to 
-                    every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
-                    </p> */}
+                    
                 </div>
                 <div className='col-span-3 dark:border-light dark:bg-dark relative h-max rounded-2xl 
                 border-2 border-solid border-dark bg-light p-8 xl:col-span-4 md:order-1 md:col-span-8'>
                     <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light' />
                     <Image src={myImg} alt="ziad" className="w-full h-auto rounded-2xl"
-                    priority
+                    
                     sizes='(max-width: 768px) 100vw ,
                     (max-width:1200px) 50vw ,
                     33vw'
