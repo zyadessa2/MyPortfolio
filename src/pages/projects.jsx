@@ -5,11 +5,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import project1 from "../../public/images/projects/agency-website-cover-image.jpg"
-import project3 from "../../public/images/projects/agency-website-cover-image.jpg"
-import project4 from "../../public/images/projects/agency-website-cover-image.jpg"
-import project5 from "../../public/images/projects/agency-website-cover-image.jpg"
-import project6 from "../../public/images/projects/agency-website-cover-image.jpg"
+import project1 from "../../public/images/projects/ecommers.PNG"
+import project3 from "../../public/images/projects/login.PNG"
+import project4 from "../../public/images/projects/crud.PNG"
+import project5 from "../../public/images/projects/to do app.PNG"
+import project6 from "../../public/images/projects/quiz.PNG"
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
