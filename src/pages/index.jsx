@@ -36,7 +36,7 @@ export default function Home() {
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>As a skilled frontend developer, I am dedicated to turning ideas into innovative web applications. 
                 Explore my latest projects and articles, showcasing my expertise in React.js and web development.</p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href="/ziadcv.pdf" target='_blank'
+                <Link href="/ziad essa cv.pdf" target='_blank'
                 className='hover:dark:text-light hover:dark:border-light
               hover:dark:bg-dark dark:text-dark dark:bg-light flex  
                 item-center bg-dark text-light p-2.5 px-6 rounded-lg 

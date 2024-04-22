@@ -49,33 +49,25 @@ const Experience = () => {
             '/>
             <ul className='w-full flex flex-col items-start justify-between ml-4'>
                 <Details
+                position="full-stack chat-app" company="@freelancing"
+                companyLink="https://chat-3-256e4.web.app/"
+                time="2024/3/20-2024/4/15"  address="remotly"
+                work="this is a chat app create with react for
+                frontend & firebase for backend you can send messages 
+                and photos , search for friends and add them like messenger or whatsapp"
+                />
+                <Details
                 position="eCommers App" company="@freelancing"
                 companyLink="https://zyadessa2.github.io/react-e-commers/"
-                time="2023-Present"  address="remotly"
+                time="2023/10/5-2023/11/10"  address="remotly"
                 work="Responsive e-commers app Created using React, bootstrap,
                 Stripe, Formik, Yup,react-query, Strapi, and Context , ... to build 
                 this entire application. This application will allow you to add products into a 
                 cart, have a form to fill out information and make payments through Stripe with a 
                 backend supported by Strapi, with real backend product ."
-                
                 />
-                <Details
-                position="Store Management System " company="@freelancing"
-                companyLink="https://zyadessa2.github.io/CRUD/"
-                time="2023-Present"  address="remotly"
-                work="Have built CRUDS  System and Learned how to 
-                create (Create, Read, Update, Delete, and Search) on the 
-                CRUDS application with plain JavaScript. We are not going to 
-                use any JavaScript frameworks instead we use plain JavaScript, 
-                CSS, and HTML to build a CRUD application."
-                
-                />
-                
             </ul>
         </div>
-        
-        
-
     </div>
   )
 }

@@ -47,6 +47,7 @@ const Skills = () => {
     <Skill name="Figma" x="0vw" y="-20vw" />
     <Skill name="Tailwind" x="-25vw" y="18vw" />
     <Skill name="TypeScript" x="18vw" y="18vw" />
+    <Skill name="firebase" x="0vw" y="23vw" />
   </div>
   </>
 }

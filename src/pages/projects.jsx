@@ -6,7 +6,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import project1 from "../../public/images/projects/ecommers.PNG"
-import project3 from "../../public/images/projects/login.PNG"
+import project3 from "../../public/images/projects/caht.jpg"
+import weatherapp from "../../public/images/projects/weatherapp.PNG"
+import landing from "../../public/images/projects/landing.PNG"
 import project4 from "../../public/images/projects/crud.PNG"
 import project5 from "../../public/images/projects/to do app.PNG"
 import project6 from "../../public/images/projects/quiz.PNG"
@@ -20,7 +22,7 @@ const FeaturedProject = ({type , title , summary , img , link , github}) =>{
     className='dark:bg-dark dark:border-light  w-full
     rounded-br-2xl relative flex p-12 items-center justify-between rounded-3xl 
     border border-solid border-dark bg-light shadow-2xl
-    lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4'>
+    lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4 mt-4'>
       <div className='dark:bg-light xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem] absolute rounded-br-3xl top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark' />
       <Link href={link} 
       target='_blank' 
@@ -101,6 +103,16 @@ const projects = () => {
         <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'> 
           <div className='col-span-12'>
             <FeaturedProject
+            title="full-stack chat-app"
+            img={project3}
+            summary="this is a chat app create with react for
+            frontend & firebase for backend you can send messages 
+            and photos , search for friends and add them like messenger or whatsapp"
+            link="https://chat-3-256e4.web.app/"
+            github="https://github.com/zyadessa2/full-stack-chat-app.git"
+            type="full-stack projects"
+            />
+            <FeaturedProject
             title="eCommers Project"
             img={project1}
             summary="Responsive e-commers app Created using React, bootstrap, Stripe, Formik, Yup,react-query, Strapi, 
@@ -109,28 +121,28 @@ const projects = () => {
             with real backend product"
             link="https://zyadessa2.github.io/react-e-commers/"
             github="https://github.com/zyadessa2/react-e-commers"
-            type="featured projects"
+            type="full-stack projects"
             />
           </div>
           <div className='col-span-6 sm:col-span-12'>
           <Project
             title="Weather App"
-            img={project3}
+            img={weatherapp}
             summary="weather app "
             link="https://zyadessa2.github.io/weather-API/"
             github="https://github.com/zyadessa2/weather-API"
-            type="featured projects"
+            type="frontend projects"
             />
           </div>
           <div className='col-span-6 sm:col-span-12'>
-            <Project
-              title="LogIn System "
-              img={project3}
-              summary="LogIn system"
-              link="https://zyadessa2.github.io/Login-System/"
-              github="https://github.com/zyadessa2/Login-System"
-              type="featured projects"
-              />
+          <Project
+            title="Landing page"
+            img={landing}
+            summary="weather app "
+            link="https://zyadessa2.github.io/html-css-landing/"
+            github="https://github.com/zyadessa2/html-css-landing.git"
+            type="frontend projects"
+            />
           </div>
           <div className='col-span-12'>
             <FeaturedProject
@@ -156,7 +168,7 @@ const projects = () => {
               going to use any JavaScript frameworks instead we ."
               link="https://zyadessa2.github.io/CRUD/"
               github="https://github.com/zyadessa2/CRUD"
-              type="featured projects"
+              type="frontend projects"
               />
           </div>
           <div className='col-span-6 sm:col-span-12'>
@@ -166,7 +178,7 @@ const projects = () => {
               summary="quiz app."
               link="https://zyadessa2.github.io/Quiz-app-js/"
               github="https://github.com/zyadessa2/Quiz-app-js.git"
-              type="featured projects"
+              type="frontend projects"
               />
           </div>
         </div>
